@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img class="alura_logo" src="./assets/icons/Logo.png" alt="">
+    </header>
+
+    <main class="container">
+        <section class="container__texto">
+            <div class="container__textarea">
+                <textarea id="texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <p id="exclamation" class="container__texto__aviso">
+                    <i class="fas fa-exclamation-circle"></i>
+                    "Apenas letras minúsculas e sem acento."
+                </p>
+            </div>
+
+            <div class="container__botao">
+                <button class="btnCript" onclick="validacaoCriptografia()">Criptografar</button>
+                <button class="btnDescript" onclick="validacaoDescriptografia()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="container__resultado">
+            <article id="mobile_info">
+                <img class="resultado__imagem" src="./assets/icons/High quality products 1 1.svg">
+                <p class="destaqueTexto">Nenhuma mensagem encontrada</p>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </article>
+            <p id="resultado"></p>
+            <div id="copiar__texto" style="display: none;">
+                <button class="copiarTextoResultado" onclick="copiarCriptografia()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="./functions.js"></script>
+    
+</body>
+</html>
