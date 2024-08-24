@@ -2,7 +2,7 @@
 
 **🔓 Desbloqueie o Segredo! 🔓**
 
-Este projeto é o resultado de uma parceria entre a Alura e a Oracle, como parte do desafio #challengeonedecodificador6. Nossa missão foi criar uma aplicação que permitisse aos usuários criptografar e descriptografar mensagens de forma segura e eficiente.
+Este projeto é o resultado de uma parceria entre a Alura e a Oracle, como parte do desafio #Challenges ONE. Nossa missão foi criar uma aplicação que permitisse aos usuários criptografar e descriptografar mensagens de forma segura e eficiente.
 
 **🔍 Funcionalidades**
 
@@ -26,8 +26,14 @@ Este projeto é o resultado de uma parceria entre a Alura e a Oracle, como parte
 
 **👨‍💻 Desenvolvedor**
 
-Este projeto foi desenvolvido por Filipe S., como parte do desafio #challengeonedecodificador6.
+Este projeto foi desenvolvido por Filipe S., como parte do desafio #Challenges ONE.
 
 **👍 Contribuições**
 
 Contribuições são bem-vindas! Se você tiver alguma sugestão ou correção, por favor, abra uma issue ou envie um pull request.
+
+**👉 Acesse o Aplicativo:**
+
+[Clique aqui para acessar o Decodificador de Texto](https://decodififcador-alura.vercel.app/)
+
+**👀 Experimente agora mesmo!**
